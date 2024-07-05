@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -8,23 +9,30 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
-          SAI KUMAR
+          Rahomotul Islam (shopnil)
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Full Stack Developer.
+          I'm a Jr. Web Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+        I’m a Jr. web developer specializing in creating responsive and user-friendly web applications. Experienced in both front-end and back-end development, I excel in using the MERN stack to build exceptional digital experiences. Currently, I’m focused on developing robust and scalable full-stack web applications.
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
+          <a
+            href="/Junior_Web_developer_CV_Rahomotul_Islam.pdf"
+            download="Junior_Web_developer_CV_Rahomotul_Islam.pdf"
+            
+          >
+            Download CV
+          </a>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
+        <div className='pt-8 flex justify-center'>
+          
+        </div>
         </div>
       </div>
     </div>
